@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">electrictime</string>
+    <string-array name="transportation">
+        <item>Walking</item>
+        <item>Boosted Mini S Board</item>
+        <item>Evolve Skateboard</item>
+        <item>Segway i2 SE</item>
+        <item>Hovertrax Hoverboard</item>
+    </string-array>
+</resources>

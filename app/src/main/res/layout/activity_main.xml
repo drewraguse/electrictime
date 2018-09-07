@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/relativeLayout"
+    android:background="#FCFCFC"
+    >
+
+
+    <ProgressBar android:id="@+id/progressbar1"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="130dp"
+        android:progressDrawable="@drawable/greenprogress"
+        />
+
+    <ProgressBar android:id="@+id/circlebar1"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:progressDrawable="@drawable/circleprogress"
+        android:layout_marginTop="110dp"
+        android:layout_below="@+id/editText1"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/text1"
+        android:text="0"
+        android:textSize="35dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="104dp"
+        android:layout_below="@+id/editText1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text1_1"
+        android:text="minutes"
+        android:textSize="16dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="122dp"
+        android:layout_below="@+id/editText1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text1_2"
+        android:text="to walk 0 miles"
+        android:textSize="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="134dp"
+        android:layout_below="@+id/editText1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/walking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equivalent to Walking:"
+        android:textSize="14dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="98dp"/>
+
+    <TextView
+        android:id="@+id/walking_miles"
+        android:text="0 miles"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="133dp"/>
+
+
+
+
+
+    <ProgressBar android:id="@+id/progressbar2"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/progressbar1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:progressDrawable="@drawable/greenprogress"
+        />
+
+    <ProgressBar android:id="@+id/circlebar2"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:progressDrawable="@drawable/circleprogress"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/circlebar1"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:text="0"
+        android:textSize="35dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text2_2"
+        android:text="minutes"
+        android:textSize="16dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/text1_1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text2_3"
+        android:text="to Boosted Board \n 0 miles"
+        android:textSize="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/text1_2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/boosted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equivalent to Boosted Mini S Boarding:"
+        android:textSize="14dp"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/walking"
+        android:layout_marginLeft="98dp"/>
+
+    <TextView
+        android:id="@+id/boosted_miles"
+        android:text="0 miles"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/walking_miles"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="43dp"/>
+
+
+
+
+
+
+    <ProgressBar android:id="@+id/progressbar3"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/progressbar2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:progressDrawable="@drawable/greenprogress"
+        />
+
+    <ProgressBar android:id="@+id/circlebar3"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:progressDrawable="@drawable/circleprogress"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/circlebar2"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/text3"
+        android:text="0"
+        android:textSize="35dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text3_3"
+        android:text="minutes"
+        android:textSize="16dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/text2_2"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text3_4"
+        android:text="to Skateboard \n 0 miles"
+        android:textSize="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/text2_3"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/evolve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equivalent to Evolve Skateboarding:"
+        android:textSize="14dp"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/boosted"
+        android:layout_marginLeft="98dp"/>
+
+    <TextView
+        android:id="@+id/evolve_miles"
+        android:text="0 miles"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/boosted_miles"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="43dp"/>
+
+
+
+
+
+    <ProgressBar android:id="@+id/progressbar4"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/progressbar3"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:progressDrawable="@drawable/greenprogress"
+        />
+
+    <ProgressBar android:id="@+id/circlebar4"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:progressDrawable="@drawable/circleprogress"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/circlebar3"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/text4"
+        android:text="0"
+        android:textSize="35dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/text3"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text4_4"
+        android:text="minutes"
+        android:textSize="16dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/text3_3"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text4_5"
+        android:text="to Segway \n 0 miles"
+        android:textSize="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/text3_4"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/segway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equivalent to Segway i2 SEing:"
+        android:textSize="14dp"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/evolve"
+        android:layout_marginLeft="98dp"/>
+
+    <TextView
+        android:id="@+id/segway_miles"
+        android:text="0 miles"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/evolve_miles"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="43dp"/>
+
+
+
+
+
+
+    <ProgressBar android:id="@+id/progressbar5"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/progressbar4"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:progressDrawable="@drawable/greenprogress"
+        />
+
+    <ProgressBar android:id="@+id/circlebar5"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:progressDrawable="@drawable/circleprogress"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/circlebar4"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/text5"
+        android:text="0"
+        android:textSize="35dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/text4"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text5_5"
+        android:text="minutes"
+        android:textSize="16dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/text4_4"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text5_6"
+        android:text="to Hoverboard \n 0 miles"
+        android:textSize="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/text4_5"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/hoverboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equivalent to Hovertrax Hoverboarding:"
+        android:textSize="14dp"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/segway"
+        android:layout_marginLeft="98dp"/>
+
+    <TextView
+        android:id="@+id/hoverboard_miles"
+        android:text="0 miles"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/segway_miles"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="43dp"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Number of Miles"
+        android:inputType="number" />
+
+    <Button android:id="@+id/loadbutton"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinner1"
+        android:text="Convert" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/progressbar1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp" />
+
+
+
+</RelativeLayout>
